@@ -1,3 +1,8 @@
+body {
+   margin: 0;
+   padding: 0;
+   font-family: 'Inter', sans-serif;
+}
 
 .page {
    font-family: 'Inter', Arial, sans-serif;
@@ -6,4 +11,25 @@
    min-width: 1100px;
    max-width: 1600px;
    margin: 0 auto;
+}
+
+.header {
+
+}
+
+.content {
+
+}
+
+.footer {
+
+}
+
+
+.recipes {
+
+}
+
+.reservation {
+
 }
