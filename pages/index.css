@@ -1,0 +1,47 @@
+.page {
+   font-family: Inter, Arial, sans-serif;
+   font-size: 16px;
+   line-height: 20px;
+}
+
+/* Estilos para Inter */
+@font-face {
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   src: url('ruta/a/Inter-Regular.woff2') format('woff2'),
+        url('ruta/a/Inter-Regular.woff') format('woff');
+}
+
+@font-face {
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 500;
+   src: url('ruta/a/Inter-Medium.woff2') format('woff2'),
+        url('ruta/a/Inter-Medium.woff') format('woff');
+}
+
+@font-face {
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 700;
+   src: url('ruta/a/Inter-Bold.woff2') format('woff2'),
+        url('ruta/a/Inter-Bold.woff') format('woff');
+}
+
+/* Estilos para Noto Serif */
+@font-face {
+   font-family: 'Noto Serif';
+   font-style: normal;
+   font-weight: 400;
+   src: url('ruta/a/NotoSerif-Regular.woff2') format('woff2'),
+        url('ruta/a/NotoSerif-Regular.woff') format('woff');
+}
+
+@font-face {
+   font-family: 'Noto Serif';
+   font-style: italic;
+   font-weight: 400;
+   src: url('ruta/a/NotoSerif-Italic.woff2') format('woff2'),
+        url('ruta/a/NotoSerif-Italic.woff') format('woff');
+}
