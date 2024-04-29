@@ -3,20 +3,3 @@
    font-size: 16px;
    line-height: 20px;
 }
-
-/* Estilos para Noto Serif */
-@font-face {
-   font-family: 'Noto Serif';
-   font-style: normal; /* Mantenemos la declaración normal para la versión regular */
-   font-weight: 400;
-   src: url('ruta/a/NotoSerif-Regular.woff2') format('woff2'),
-        url('ruta/a/NotoSerif-Regular.woff') format('woff');
-}
-
-@font-face {
-   font-family: 'Noto Serif';
-   font-style: italic; /* Establecemos la declaración italic para la versión en cursiva */
-   font-weight: 400;
-   src: url('ruta/a/NotoSerif-Italic.woff2') format('woff2'),
-        url('ruta/a/NotoSerif-Italic.woff') format('woff');
-}
