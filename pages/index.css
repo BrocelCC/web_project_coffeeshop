@@ -65,7 +65,6 @@ body {
    margin-top: 183px;
 }
 .header__description {
-   margin-top: 28px;
    max-width: 683px;
    font-family: "Noto Serif";
    font-style: normal;
@@ -94,6 +93,17 @@ body {
 .logo {
    position: relative;
 }
+.header__footer {
+   display: flex;
+   justify-content: space-between;
+   box-sizing: border-box;
+}
+.header__hours {
+   margin: auto 0 40px 80px;
+}
+.header__address {
+   margin: auto 80px 40px 0;
+}
 .content {
 
 }
@@ -104,7 +114,49 @@ body {
 
 
 .recipes {
-
+   background-color: #0a2750;
+   background-image: url(../images/background_recipes.svg);
+   background-size: cover;
+   color: #FFFFFF;
+   padding: 100px 0 140px;
+}
+.recipes__title {
+   margin: 0 0 24px 80px;
+   max-width: 580px;
+   font-family: "Inter";
+   font-style: normal;
+   font-weight: 500;
+   font-size: 44px;
+   line-height: 52px;
+}
+.recipes__subtitle {
+   margin: 0 0 80px 80px;
+   font-family: "Noto Serif";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 20px;
+   line-height: 30px;
+}
+.recipes__videos {
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   column-gap: 40px;
+}
+.recipe__video {
+   width: 480px;
+   height: 273px;
+}
+.videos__captions {
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   column-gap: 400px;
+   font-family: "Inter";
+   font-style: normal;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 30px;
 }
 
 .reservation {
